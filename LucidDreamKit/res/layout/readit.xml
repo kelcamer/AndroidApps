@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diary2"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/pages"
+        android:layout_width="275dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+
+        android:gravity="bottom"
+        android:maxLines="15"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+</LinearLayout>

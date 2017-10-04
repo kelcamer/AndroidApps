@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="@string/check"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/checks4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    
+        android:text="tessssssstestestestestesssssss"
+        android:padding="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

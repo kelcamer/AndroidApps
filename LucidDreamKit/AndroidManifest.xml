@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kelcamer.remaclek"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       
+        <activity
+            android:name="com.kelcamer.remaclek.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.showc"
+            android:label="Show Reality Checks"
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.journal"
+            android:label="Different Types of Reality Checks"
+            android:parentActivityName="com.kelcamer.remaclek.showc" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+                  </activity>
+       <activity
+            android:name="com.kelcamer.remaclek.jour1"
+            android:label="Dream Journal Information"
+            android:parentActivityName="com.kelcamer.remaclek.jour1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.jour2"
+            android:label="Enter your Dream"
+            android:parentActivityName="com.kelcamer.remaclek.jour1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.Share"
+            android:label="Enter your Dream"
+            android:parentActivityName="com.kelcamer.remaclek.jour1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.sym"
+            android:label="The Importance of Dream Symbols"
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.display"
+            android:label="Lucid Dream Kit"
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        
+  
+        <activity
+            android:name="com.kelcamer.remaclek.symbol"
+            android:label="Dream Symbols"
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.gets"
+            android:label="Your Dream Journal"
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.google.android.youtube.player"
+            android:label="Show your Journal."
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.Beat"
+            android:label="@string/title_activity_beat"
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        <activity
+            android:name="com.kelcamer.remaclek.mean1"
+            android:label="Dream Meanings"
+            android:parentActivityName="com.kelcamer.remaclek.Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kelcamer.remaclek.Main" />
+        </activity>
+        
+    
+    </application>
+
+</manifest>

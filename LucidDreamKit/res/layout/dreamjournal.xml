@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/write1"
+        android:layout_width="275dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/w"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/writeMain"
+        android:layout_width="271dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+       
+  
+        android:text="@string/write"
+       
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/journalButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:text="@string/realJournal"
+        android:textColor="@color/white"
+        android:textColorLink="@color/teal"
+        android:textSize="20sp" />
+
+</LinearLayout>
